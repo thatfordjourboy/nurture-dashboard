@@ -466,7 +466,7 @@ else:
     st.write("""
     1. **Upload Your Data**:
        - Use the file uploader in the sidebar to upload your sales data as a CSV file.
-       - Ensure your file includes columns such as `Sales`, `Quantity Sold`, `Products`, and `Months`.
+       - Ensure your file includes columns the following columns (in the order provided): PRODUCT, MONTH, PRICE, QTY SOLD, SALES, TOTAL STOCK, STOCK LEFT(EXCEL), ACTUAL STOCK, SYSTEM STOCK, SURPLUS & SHORTAGE.
     
     2. **Analyze Key Metrics**:
        - View metrics like total sales, top-performing products, and peak sales months through interactive cards and visualizations.
@@ -486,7 +486,7 @@ else:
         <ul>
             <li><strong>What data format is required?</strong> Ensure your file is in CSV format with clear headers.</li>
             <li><strong>What insights can I gain?</strong> Key insights include product performance, sales trends, and inventory efficiency.</li>
-            <li><strong>Can I filter data?</strong> Yes, you can filter by products, months, or other attributes dynamically.</li>
+            <li><strong>Can I filter data?</strong> Yes, you can filter by products, months, or other attributes dynamically on selected charts.</li>
             <li><strong>What is ABC classification?</strong> It segments products into three categories (`A`, `B`, and `C`) based on their contribution to total sales.</li>
         </ul>
         </div>
@@ -498,9 +498,7 @@ else:
         </div>
     """, unsafe_allow_html=True)
 
-    # -------------------------
     # FAQ Section
-    # -------------------------
 
     st.markdown("---")  # Dash to separate sections
     st.subheader("Frequently Asked Questions (FAQ)")
@@ -513,7 +511,7 @@ else:
         },
         {
             "question": "How often should I update my data?",
-            "answer": "It's recommended to update your data regularly, ideally on a monthly basis, to ensure you have the most accurate insights."
+            "answer": "It's recommended to update your data regularly, ideally on a quarterly basis, to ensure you have the most accurate insights."
         },
         {
             "question": "What insights can I gain from this dashboard?",
@@ -525,7 +523,7 @@ else:
         },
         {
             "question": "Who can I contact for support?",
-            "answer": "For support, please contact our customer service team at support@nurtureholiks.com."
+            "answer": "For support, please contact our customer service team at info@nurtureholiks.com."
         }
     ]
 
