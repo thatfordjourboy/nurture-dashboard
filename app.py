@@ -494,7 +494,7 @@ else:
 
     st.markdown("""
         <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin-top: 20px; text-align: center; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
-            <p style="font-size: 14px; color: #333;">Tip: If you're new to this dashboard, start by uploading a sample CSV file to explore its capabilities.</p>
+            <p style="font-size: 14px; color: #333;">Tip: If you're new to this dashboard, please note that you will need to set up your data in a manner consistent with Nurtureholik's.</p>
         </div>
     """, unsafe_allow_html=True)
 
